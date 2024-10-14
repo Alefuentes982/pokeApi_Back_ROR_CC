@@ -23,6 +23,3 @@
 - Ejecutar app 
 ***rails server -b 192.168.xxx.xx***
 
-## Screenshoot
-![Screen](screenFront1.jpg)
-![Screen](screenFront2.jpg)
