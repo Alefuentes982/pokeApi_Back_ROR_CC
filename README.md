@@ -1,24 +1,28 @@
-# README
+# Controlcar Backend
+ **API desarrollada en Ruby on Rails para gestionar pokemones (captura, liberación y listado), junto a un frontend Flutter que permite a los usuarios interactuar con esta API.**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Front Flutter (clonar en otro directorio local): 
+**git@github.com:Alefuentes982/pokeApi_Front_Flutter_CC.git**
 
-Things you may want to cover:
+## Getting Started
+**Ruby 3.2.2**
+**Rails 7.0.8.4**  
+**gem Kaminari 1.2.2 & rack-cors 2.0.2**
+**sqlite 3.42.0**
 
-* Ruby version
+- Clonar repositorio github
+***git@github.com:Alefuentes982/pokeApi_Back_ROR_CC.git***
 
-* System dependencies
+- Instalar dependencias
+***bundle install***
 
-* Configuration
+- Configurar base de datos (sqlite)
+***rails db:create***
+***rails db:migrate***
 
-* Database creation
+- Ejecutar app 
+***rails server -b 192.168.xxx.xx***
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Screenshoot
+![Screen](screenFront1.jpg)
+![Screen](screenFront2.jpg)
